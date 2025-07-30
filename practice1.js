@@ -97,3 +97,22 @@ console.log("Total vowels:", totalvowel);
 console.log("Count of 'a','e','i':", vowelcount['a'], vowelcount['e'], vowelcount['i']);
 console.log("Count of 'o':", vowelcount['o']);
 console.log("Count of 'u':", vowelcount['u']);
+
+//### Task-4:
+//If a given string has either x, replace x by y. if the given string has X, replace it by Y.
+
+//Hint: You should be able to check whether x or X exists. After that, search online how to replace a character in a string.
+
+let originalString = "Hello World I am learning js and I love coding with js";
+let newString = originalString
+.replace(/a/g, 'A')
+.replace(/js/g, 'JAVASCRIPT');
+
+console.log(newString);
+
+//### Task-5:
+//Capitalize Every first Letter of each word in a String
+
+let publication = "i love programming ";
+ publication = publication[0].toUpperCase() + publication.substring(1);
+  console.log(publication);
